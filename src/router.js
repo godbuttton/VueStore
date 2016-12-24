@@ -1,23 +1,23 @@
 //导入基本模块
 import Vue from 'vue'
-import VueRouter from "vue-router"; 
+import VueRouter from "vue-router"
 
-//pagePart模块
-import headerpart from "./components/header.vue"
+
 //page 模块
 import homepage from './pages/Home.vue'
 import productListPage from './pages/productList.vue'
 import page404 from './pages/page404.vue'
+import shopCar from './pages/shopCar.vue'
+import myOrder from './pages/myOrder.vue'
 
 
-Vue.component('headerpart', headerpart)
 Vue.component('homepage', homepage)
 Vue.component('productListPage', productListPage)
 Vue.component('page404', page404)
-
+Vue.component('shopCar', shopCar)
+Vue.component(' myOrder',  myOrder)
 
 Vue.use(VueRouter)
-
 const routes = [{
   path: '/',
   component: homepage
@@ -27,6 +27,12 @@ const routes = [{
 }, {
   path: '/homepage',
   component: homepage
+},{
+  path: '/shopCar',
+  component: shopCar
+},{
+  path: '/myOrder',
+  component: myOrder
 }, {
   path: '*',
   component: page404

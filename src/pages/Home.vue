@@ -1,21 +1,25 @@
 <template>
-    <div>
-        <headerpart></headerpart>
-        <h1>这是主页</h1>
-        <h2>{{name}}</h2>
+    <div class="homePage">
+        <router-link to="/productListPage">
+        <img src="../assets/shop.png" alt="">
+        </router-link>
     </div>
 </template>
 <script>
-    import headerpart from "../components/header.vue"
-  
     export default {
         data() {
             return {
-                name: "我是主页"
+                name: "我是主页",
             }
-        },
-        components:{
-            headerpart
         }
     }
 </script>
+<style>
+    .homePage img {
+        display: block;
+        height: 100%;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+    }
+</style>
