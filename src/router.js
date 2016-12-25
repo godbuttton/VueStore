@@ -9,6 +9,7 @@ import productListPage from './pages/productList.vue'
 import page404 from './pages/page404.vue'
 import shopCar from './pages/shopCar.vue'
 import myOrder from './pages/myOrder.vue'
+import userCenter from './pages/userCenter.vue'
 
 
 Vue.component('homepage', homepage)
@@ -16,6 +17,7 @@ Vue.component('productListPage', productListPage)
 Vue.component('page404', page404)
 Vue.component('shopCar', shopCar)
 Vue.component(' myOrder',  myOrder)
+Vue.component(' userCenter', userCenter)
 
 Vue.use(VueRouter)
 const routes = [{
@@ -33,6 +35,9 @@ const routes = [{
 },{
   path: '/myOrder',
   component: myOrder
+},{
+  path: '/userCenter',
+  component: userCenter
 }, {
   path: '*',
   component: page404

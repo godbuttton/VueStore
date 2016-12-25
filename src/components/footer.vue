@@ -42,7 +42,7 @@
     .footer {
         background: rgba(255,255,255, 1);
         position: fixed;
-        bottom: 4px;
+        bottom: 0;
         padding: 0  5px;
         width: 100%;
         height: 3.3rem;
