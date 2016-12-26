@@ -37,5 +37,6 @@ npm run build
 # 实现
     >  后台：php
     >  数据库：SQL
-    >  数据库结构设计：
+          *库：VueStore
+          *表：用户信息表 /产品表/shopCar表/订单表
         。。。

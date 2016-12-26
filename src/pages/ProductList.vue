@@ -2,8 +2,7 @@
     <div>
         <div>
             <headerpart></headerpart>
-            <productListContent></productListContent>
-            
+            <productListContent></productListContent>    
             <footerpart></footerpart>
         </div>
     </div>
@@ -12,7 +11,6 @@
     import headerpart from "../components/header.vue"
     import footerpart from "../components/footer.vue"
     import productListContent from "../components/productListContent.vue"
-  
     export default {
         data() {
             return {

@@ -3,7 +3,7 @@ import Vue from 'vue'
 import VueRouter from "vue-router"
 
 
-//page 模块
+//page
 import homepage from './pages/Home.vue'
 import productListPage from './pages/productList.vue'
 import page404 from './pages/page404.vue'
@@ -20,6 +20,7 @@ Vue.component(' myOrder',  myOrder)
 Vue.component(' userCenter', userCenter)
 
 Vue.use(VueRouter)
+
 const routes = [{
   path: '/',
   component: homepage

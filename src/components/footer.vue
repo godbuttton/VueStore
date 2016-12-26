@@ -53,7 +53,6 @@
         width: 100%;
         overflow: hidden;
     }
-    
     .footer ul li {
         text-align: center;
         width: 25%;
