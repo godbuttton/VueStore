@@ -16,12 +16,12 @@
             return {
                 name: "产品列表"
             }
-        },
-        components: {
-            headerpart,
-            footerpart,
-            productListContent
-         
-        }
+        },   
+       components: {
+        headerpart,
+        footerpart,
+        productListContent
+
     }
+}
 </script>

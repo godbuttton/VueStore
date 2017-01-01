@@ -1,5 +1,6 @@
 <template>
     <div class="footer">
+             
         <ul v-show="menuDisplay">
             <li>
                 <router-link to="/productListPage" class="linkStyle">
@@ -29,7 +30,7 @@
     </div>
 </template>
 <script>
-    export default {
+    export default{
         data() {
             return {
                 menuDisplay: true,
